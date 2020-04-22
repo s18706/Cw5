@@ -66,7 +66,40 @@ namespace Cw5.Controllers
 
             if (!_service.CheckUserPassword(request))
                 return Ok("User or password incorrect");
+
+            var token = CreateToken();
+            var refToken = Guid.NewGuid();
             
+            _service.AddToken(request.Login, refToken.ToString());
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                refreshToken=refToken
+            });
+        }
+
+        [HttpPost("refresh-Token/{refToken}")]
+        public IActionResult RefreshToken(string refToken)
+        {
+            Console.WriteLine(refToken);
+            if (!_service.CheckToken(refToken))
+                return Ok("No such token");
+            
+            var newToken = CreateToken();
+            var newRefToken = Guid.NewGuid();
+            
+            _service.ChangeToken(refToken, newRefToken.ToString());
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(newToken),
+                refreshToken=newRefToken
+            });
+        }
+
+        public static JwtSecurityToken CreateToken()
+        {
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, "1"),
@@ -87,11 +120,7 @@ namespace Cw5.Controllers
                 signingCredentials: creds
             );
 
-            return Ok(new
-            {
-                token = new JwtSecurityTokenHandler().WriteToken(token),
-                refreshToken=Guid.NewGuid()
-            });
+            return token;
         }
     }
 }

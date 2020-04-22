@@ -14,6 +14,9 @@ namespace Cw5.Services
         void EnrollStudent(EnrollStudentRequest request);
         void PromoteStudents(PromoteStudentRequest request);
         bool CheckIndexNumber(string index);
+        bool CheckToken(string token);
         public bool CheckUserPassword(LoginRequestDto index);
+        void AddToken(string requestLogin, string refToken);
+        public void ChangeToken(string refToken, string newRefToken);
     }
 }

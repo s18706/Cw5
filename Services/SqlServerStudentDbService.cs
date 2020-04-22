@@ -8,15 +8,68 @@ namespace Cw5.Services
 {
     public class SqlServerStudentDbService : IStudentDbService
     {
+        private string DBLogin = "Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234";
 
         public SqlServerStudentDbService(/*.. */ )
         {
 
         }
+        
+        public bool CheckUserPassword(LoginRequestDto index)
+        {
+            using (var con = new SqlConnection(DBLogin))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                
+                com.CommandText = "select * from student where IndexNumber=@index AND Password=@password";
+                com.Parameters.AddWithValue("index", index.Login);
+                com.Parameters.AddWithValue("password", index.Haslo);
+                
+                var dr = com.ExecuteReader();
+                if (!dr.Read())
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public void AddToken(string requestLogin, string refToken)
+        {
+            
+            using (var con = new SqlConnection(DBLogin))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                
+                com.CommandText = "UPDATE Student SET Token=@token WHERE IndexNumber=@index";
+                com.Parameters.AddWithValue("index", requestLogin);
+                com.Parameters.AddWithValue("token", refToken);
+                var dr = com.ExecuteReader();
+            }
+        }
+        public void ChangeToken(string refToken, string newRefToken)
+        {
+            
+            using (var con = new SqlConnection(DBLogin))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                
+                com.CommandText = "UPDATE Student SET Token=@newRefToken WHERE Token=@refToken";
+                com.Parameters.AddWithValue("refToken", refToken);
+                com.Parameters.AddWithValue("newRefToken", newRefToken);
+                var dr = com.ExecuteReader();
+            }
+        }
 
         public void EnrollStudent(EnrollStudentRequest request)
         {
-            using (var con = new SqlConnection("Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234"))
+            using (var con = new SqlConnection(DBLogin))
             using (var com = new SqlCommand())
             {
                 com.Connection = con;
@@ -81,7 +134,7 @@ namespace Cw5.Services
         
         public bool CheckIndexNumber(string index)
         {
-            using (var con = new SqlConnection("Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234"))
+            using (var con = new SqlConnection(DBLogin))
             using (var com = new SqlCommand())
             {
                 com.Connection = con;
@@ -100,17 +153,17 @@ namespace Cw5.Services
             return true;
         }
         
-        public bool CheckUserPassword(LoginRequestDto index)
+        public bool CheckToken(string token)
         {
-            using (var con = new SqlConnection("Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234"))
+            using (var con = new SqlConnection(DBLogin))
             using (var com = new SqlCommand())
             {
                 com.Connection = con;
+
                 con.Open();
                 
-                com.CommandText = "select * from student where IndexNumber=@index AND Password=@password";
-                com.Parameters.AddWithValue("index", index.Login);
-                com.Parameters.AddWithValue("password", index.Haslo);
+                com.CommandText = "select * from student where token=@token";
+                com.Parameters.AddWithValue("token", token);
                 
                 var dr = com.ExecuteReader();
                 if (!dr.Read())
