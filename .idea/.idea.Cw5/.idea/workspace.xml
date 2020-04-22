@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="870865ad-d3ea-4887-80b1-e5f155a003ec" name="Default Changelist" comment="zad7.1">
+    <list default="true" id="870865ad-d3ea-4887-80b1-e5f155a003ec" name="Default Changelist" comment="zad7.2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/IStudentDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IStudentDbService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
     </list>
@@ -134,7 +133,7 @@
       <workItem from="1586255496905" duration="15000" />
       <workItem from="1587466217363" duration="3595000" />
       <workItem from="1587470540182" duration="8325000" />
-      <workItem from="1587494309002" duration="11455000" />
+      <workItem from="1587494309002" duration="14644000" />
     </task>
     <task id="LOCAL-00001" summary="zad7.1">
       <created>1587547285010</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587547285010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zad7.2">
+      <created>1587552537452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587552537452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,40 +172,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zad7.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="zad7.1" />
+    <MESSAGE value="zad7.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad7.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587552242175">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587561361320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587552242175" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587561361320" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1587551848511" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351721" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256182" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601383" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637726" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587552242173">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587561361317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587552242173" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587561361317" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1587551848500" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351719" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256177" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601381" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637723" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587552242172">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587561361316">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587552242172" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587561361316" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1587551848496" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351717" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256172" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601379" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637721" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587552242174">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587561361318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587552242174" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587561361318" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587551848508" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351720" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256180" />
@@ -217,10 +224,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587492056383" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587547289043">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587552541747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587547289043" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587552541747" />
     <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587551505235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

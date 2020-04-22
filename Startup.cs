@@ -48,7 +48,7 @@ namespace Cw5
                         ValidateLifetime=true,
                         ValidIssuer="Gakko",
                         ValidAudience="Students",
-                        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Asjdsaivj22kaljoasdjoiasojiasojiaoijasojiadsojidoijasoij"))
+                        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretKey"]))
                     };
                 });
 

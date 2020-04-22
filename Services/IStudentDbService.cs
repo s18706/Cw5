@@ -18,5 +18,6 @@ namespace Cw5.Services
         public bool CheckUserPassword(LoginRequestDto index);
         void AddToken(string requestLogin, string refToken);
         public void ChangeToken(string refToken, string newRefToken);
+        string GetSalt(string index);
     }
 }

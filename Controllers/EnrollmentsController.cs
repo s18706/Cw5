@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using Cw5.DTOs;
 using Cw5.DTOs.Requests;
 using Cw5.DTOs.Responses;
 using Cw5.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -20,16 +22,19 @@ namespace Cw5.Controllers
     public class EnrollmentsController : ControllerBase
     {
         private IStudentDbService _service;
+        private static IConfiguration _configuration;
 
-        public EnrollmentsController(IStudentDbService service)
+        public EnrollmentsController(IStudentDbService service, IConfiguration configuration)
         {
             _service = service;
+            _configuration = configuration;
         }
-        //
+        
         // public IConfiguration Configuration { get; set; }
         // public EnrollmentsController(IConfiguration configuration)
         // {
         //     Configuration = configuration;
+        //     _configuration = configuration;
         // }
 
 
@@ -37,19 +42,8 @@ namespace Cw5.Controllers
         [Authorize(Roles = "employee")]
         public IActionResult EnrollStudent(EnrollStudentRequest request)
         {
-            var list = new List<ShortStudent>();
-            list.Add(new ShortStudent
-            {
-                IdStudent = 1,
-                Name = "Andrzej"
-            });
-            list.Add(new ShortStudent
-            {
-                IdStudent = 3,
-                Name = "Wieslaw"
-            });
-            return Ok(list);
             _service.EnrollStudent(request);
+            return Ok();
         }
 
         [HttpPost("promotions")]
@@ -63,6 +57,8 @@ namespace Cw5.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginRequestDto request)
         {
+            var salt = _service.GetSalt(request.Login);
+            request.Haslo = EncryptPass(request.Haslo,salt);
 
             if (!_service.CheckUserPassword(request))
                 return Ok("User or password incorrect");
@@ -82,7 +78,6 @@ namespace Cw5.Controllers
         [HttpPost("refresh-Token/{refToken}")]
         public IActionResult RefreshToken(string refToken)
         {
-            Console.WriteLine(refToken);
             if (!_service.CheckToken(refToken))
                 return Ok("No such token");
             
@@ -108,7 +103,7 @@ namespace Cw5.Controllers
                 new Claim(ClaimTypes.Role, "student")
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Asjdsaivj22kaljoasdjoiasojiasojiaoijasojiadsojidoijasoij"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken
@@ -121,6 +116,17 @@ namespace Cw5.Controllers
             );
 
             return token;
+        }
+
+        public static string EncryptPass(string pass, string saltPass)
+        {
+            var valueBytes = KeyDerivation.Pbkdf2(
+                password:pass,
+                salt: Encoding.UTF8.GetBytes(saltPass),
+                prf: KeyDerivationPrf.HMACSHA512,
+                iterationCount:10000,
+                numBytesRequested:128/8);
+            return Convert.ToBase64String(valueBytes);
         }
     }
 }

@@ -67,6 +67,21 @@ namespace Cw5.Services
             }
         }
 
+        public string GetSalt(string index)
+        {
+            using (var con = new SqlConnection(DBLogin))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                
+                com.CommandText = "SELECT salt FROM Student WHERE IndexNumber=@index";
+                com.Parameters.AddWithValue("index", index);
+                var dr = com.ExecuteReader();
+                return dr.ToString();
+            }
+        }
+
         public void EnrollStudent(EnrollStudentRequest request)
         {
             using (var con = new SqlConnection(DBLogin))
