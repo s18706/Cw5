@@ -1,27 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="870865ad-d3ea-4887-80b1-e5f155a003ec" name="Default Changelist" comment="" />
+    <list default="true" id="870865ad-d3ea-4887-80b1-e5f155a003ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/StudentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTOs/Requests/LoginRequestDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTOs/Requests/PromoteStudentRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DTOs/ShortStudent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/LoggingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cw5.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IStudentDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IStudentDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Controllers/EnrollmentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/ShortStudent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Requests/LoginRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cw3/Cw3/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cw3/Cw3/Controllers/EnrollmentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia 5/Wyklad5/Wyklad5/Controllers/EnrollmentsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DTOs/Requests/PromoteStudentRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia4/Wyklad4/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/DTOs/LoginRequestDto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Middlewares/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Responses/EnrollStudentResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Requests/EnrollStudentRequest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -32,10 +75,19 @@
         <option value="$PROJECT_DIR$/DTOs/Requests/EnrollStudentRequest.cs" />
         <option value="$PROJECT_DIR$/DTOs/Responses/EnrollStudentResponse.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/DTOs/ShortStudent.cs" />
+        <option value="$PROJECT_DIR$/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/DTOs/Requests/PromoteStudentRequest.cs" />
+        <option value="$PROJECT_DIR$/DTOs/Requests/LoginRequestDto.cs" />
+        <option value="$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/Middlewares/LoggingMiddleware.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Services/IStudentDbService.cs" />
-        <option value="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" />
         <option value="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/Services/IStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" />
+        <option value="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" />
+        <option value="$PROJECT_DIR$/Cw5.csproj" />
       </list>
     </option>
   </component>
@@ -48,7 +100,9 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Cw5">
     <configuration name="Cw5" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -97,7 +151,11 @@
       <workItem from="1585748608022" duration="174000" />
       <workItem from="1585762321422" duration="1273000" />
       <workItem from="1585764689647" duration="4312000" />
-      <workItem from="1585769749137" duration="246000" />
+      <workItem from="1585769749137" duration="675000" />
+      <workItem from="1586255496905" duration="15000" />
+      <workItem from="1587466217363" duration="3595000" />
+      <workItem from="1587470540182" duration="8325000" />
+      <workItem from="1587494309002" duration="6679000" />
     </task>
     <servers />
   </component>
@@ -106,32 +164,53 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585769601383">
-      <screen x="1440" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587544334504">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585748783181" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587544334504" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1587541622751" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351721" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256182" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601383" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637726" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585769601381">
-      <screen x="1440" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587544334502">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585748783179" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587544334502" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1587541622745" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351719" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256177" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601381" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637723" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585769601379">
-      <screen x="1440" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587544334500">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585748783178" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587544334500" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1587541622743" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351717" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256172" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601379" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637721" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585769601382">
-      <screen x="1440" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587544334503">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585748783180" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587544334503" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587541622749" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351720" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256180" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601382" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637725" />
@@ -139,5 +218,17 @@
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1760" y="189" key="Rider.ProjectTemplateDialog.Size/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766660240" />
+    <state x="240" y="163" key="RiderGenerateDialog" timestamp="1587466954594">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="240" y="163" key="RiderGenerateDialog/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587466954594" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1587492056383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587492056383" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587540967256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587540967256" />
   </component>
 </project>

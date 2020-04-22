@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using Cw5.DTOs;
 using Cw5.DTOs.Requests;
 using Cw5.DTOs.Responses;
 
@@ -73,9 +74,51 @@ namespace Cw5.Services
             }
         }
 
-        public void PromoteStudents(int semester, string studies)
+        public void PromoteStudents(PromoteStudentRequest request)
         {
             throw new NotImplementedException();
+        }
+        
+        public bool CheckIndexNumber(string index)
+        {
+            using (var con = new SqlConnection("Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234"))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+
+                con.Open();
+                
+                com.CommandText = "select * from student where IndexNumber=@index";
+                com.Parameters.AddWithValue("index", index);
+                
+                var dr = com.ExecuteReader();
+                if (!dr.Read())
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        public bool CheckUserPassword(LoginRequestDto index)
+        {
+            using (var con = new SqlConnection("Server=localhost,32770;Initial Catalog=s18706;User ID=sa;Password=Root1234"))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                
+                com.CommandText = "select * from student where IndexNumber=@index AND Password=@password";
+                com.Parameters.AddWithValue("index", index.Login);
+                com.Parameters.AddWithValue("password", index.Haslo);
+                
+                var dr = com.ExecuteReader();
+                if (!dr.Read())
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

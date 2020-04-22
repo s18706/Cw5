@@ -22,3 +22,16 @@
 /Users/admin/Desktop/Schools4/APBD/projects/Cw5/obj/Debug/netcoreapp3.1/staticwebassets/Cw5.StaticWebAssets.xml
 /Users/admin/Desktop/Schools4/APBD/projects/Cw5/obj/Debug/netcoreapp3.1/Cw5.dll
 /Users/admin/Desktop/Schools4/APBD/projects/Cw5/obj/Debug/netcoreapp3.1/Cw5.pdb
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/obj/Debug/netcoreapp3.1/Cw5.MvcApplicationPartsAssemblyInfo.cs
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/admin/Desktop/Schools4/APBD/projects/Cw5/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
