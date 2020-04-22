@@ -1,0 +1,933 @@
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students/1 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| ?Index=s18706
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| ?Index=s18706
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| ?Index=s18706
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /swagger/v1 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/sss 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/sss 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/s 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/s 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/ddsa 
+body |  
+query| 
+
+GET  | /favicon.ico 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/s 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/students 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/promotestudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {"IndexNumber": "1234","FirstName": "Andrzej","LastName": "Malewski","BirthDate": "2000-01-05","Studies": "PJATK"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments/enrollstudent 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/s 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/students 
+body |  
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+POST  | /api/enrollments/login 
+body | {"Login": "S18706","Haslo": "1234"} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+POST  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/students 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+GET  | /api/enrollments 
+body | {
+    "IndexNumber": "1234",
+    "FirstName": "Andrzej",
+    "LastName": "Malewski",
+    "BirthDate": "2000-01-05",
+    "Studies": "PJATK"
+} 
+query| 
+
+GET  | /api/enrollments 
+body |  
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
+POST  | /api/enrollments/login 
+body | {
+    "Login": "S18706",
+    "Haslo": "1234"
+} 
+query| 
+
