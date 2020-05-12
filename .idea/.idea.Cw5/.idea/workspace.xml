@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870865ad-d3ea-4887-80b1-e5f155a003ec" name="Default Changelist" comment="zad7.3">
+      <change afterPath="$PROJECT_DIR$/ServicesEF/EfDbService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicesEF/IEfDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cw5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cw5.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Cw5.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Cw5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,30 +29,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Controllers/EnrollmentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/ShortStudent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ModelsEF/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ModelsEF/s18706Context.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ModelsEF/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ModelsEF/Studies.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Requests/LoginRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Cw3/Cw3/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cw3/Cw3/Controllers/EnrollmentsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Zajęcia 5/Wyklad5/Wyklad5/Controllers/EnrollmentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Requests/PromoteStudentRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Models/PeopleDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia4/Wyklad4/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 10/Wyklad10Sample/Wyklad10Sample/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/DTOs/LoginRequestDto.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Middlewares/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/EnrollmentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Cw3/Cw3/Controllers/StudentsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Configurations/StudiesEfConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 5/Wyklad5/Wyklad5/Controllers/EnrollmentsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Controllers/PersonsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Services/IPeopleDbService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Zajęcia 11/Wyklad11/Wyklad10/Services/EfPeopleDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServicesEF/IEfDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServicesEF/EfDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Responses/EnrollStudentResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DTOs/Requests/EnrollStudentRequest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,15 +85,22 @@
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/DTOs/ShortStudent.cs" />
-        <option value="$PROJECT_DIR$/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/DTOs/Requests/PromoteStudentRequest.cs" />
         <option value="$PROJECT_DIR$/DTOs/Requests/LoginRequestDto.cs" />
         <option value="$PROJECT_DIR$/../../Zajęcia 7/AuthenticationSampleWebApp/AuthenticationSampleWebApp/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/Middlewares/LoggingMiddleware.cs" />
         <option value="$PROJECT_DIR$/Handlers/BasicAuthHandler.cs" />
-        <option value="$PROJECT_DIR$/Cw5.csproj" />
         <option value="$PROJECT_DIR$/Services/IStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/Cw5.csproj" />
         <option value="$PROJECT_DIR$/Services/SqlServerStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/ModelsEF/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/ModelsEF/s18706Context.cs" />
+        <option value="$PROJECT_DIR$/ModelsEF/Student.cs" />
+        <option value="$PROJECT_DIR$/ModelsEF/Studies.cs" />
+        <option value="$PROJECT_DIR$/ServicesEF/EfPeopleDbService.cs" />
+        <option value="$PROJECT_DIR$/ServicesEF/IPeopleDbService.cs" />
+        <option value="$PROJECT_DIR$/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/ServicesEF/EfDbService.cs" />
         <option value="$PROJECT_DIR$/Controllers/EnrollmentsController.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
@@ -126,7 +170,12 @@
       <workItem from="1586255496905" duration="15000" />
       <workItem from="1587466217363" duration="3595000" />
       <workItem from="1587470540182" duration="8325000" />
-      <workItem from="1587494309002" duration="14903000" />
+      <workItem from="1587494309002" duration="15157000" />
+      <workItem from="1589211781216" duration="1894000" />
+      <workItem from="1589214010363" duration="254000" />
+      <workItem from="1589217126248" duration="826000" />
+      <workItem from="1589277723606" duration="2568000" />
+      <workItem from="1589282125973" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="zad7.1">
       <created>1587547285010</created>
@@ -177,39 +226,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="zad7.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587561361320">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589285214174">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587561361320" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587562199354" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1587551848511" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351721" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1589285214174" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256182" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601383" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637726" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587561361317">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589285214171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587561361317" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587562199350" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1587551848500" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351719" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1589285214171" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256177" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601381" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637723" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587561361316">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589285214169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587561361316" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587562199348" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1587551848496" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351717" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1589285214169" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256172" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601379" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637721" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587561361318">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589285214173">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587561361318" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587562199353" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587551848508" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1587475351720" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1589285214173" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1585766256180" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.823@1440.0.1440.900" timestamp="1585769601382" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1585763637725" />
@@ -233,5 +282,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551505235" />
+    <state x="341" y="198" width="756" height="596" key="search.everywhere.popup" timestamp="1589279327339">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="341" y="198" width="756" height="596" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@0.0.1440.900" timestamp="1589279327339" />
+    <state x="1743" y="225" width="672" height="678" key="search.everywhere.popup/1440.0.1280.1024/0.0.1440.900@1440.0.1280.1024" timestamp="1589212578286" />
   </component>
 </project>

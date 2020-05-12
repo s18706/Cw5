@@ -17,9 +17,12 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Cw5.Middlewares;
 using Cw5.Models;
+using Cw5.ModelsEF;
 using Cw5.Services;
+using Cw5.ServicesEF;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using static System.Net.WebRequestMethods;
 
@@ -36,21 +39,22 @@ namespace Cw5
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IStudentDbService, SqlServerStudentDbService>();
+            // services.AddTransient<IStudentDbService, SqlServerStudentDbService>();
+            services.AddTransient<IEfDbService, EfDbService>();
             
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer=true,
-                        ValidateAudience=true,
-                        ValidateLifetime=true,
-                        ValidIssuer="Gakko",
-                        ValidAudience="Students",
-                        IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretKey"]))
-                    };
-                });
+            // services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //     .AddJwtBearer(options =>
+            //     {
+            //         options.TokenValidationParameters = new TokenValidationParameters
+            //         {
+            //             ValidateIssuer=true,
+            //             ValidateAudience=true,
+            //             ValidateLifetime=true,
+            //             ValidIssuer="Gakko",
+            //             ValidAudience="Students",
+            //             IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretKey"]))
+            //         };
+            //     });
 
             // services.AddAuthentication("AuthenticationBasic")
             //     .AddScheme<AuthenticationSchemeOptions, BasicAuthHandler>("AuthenticationBasic", null);
@@ -63,7 +67,7 @@ namespace Cw5
             });
         }
         
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IStudentDbService dbService)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IEfDbService dbService)
         {
             if (env.IsDevelopment())
             {
